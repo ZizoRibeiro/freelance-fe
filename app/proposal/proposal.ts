@@ -11,4 +11,4 @@ export class Proposal {
   ) {}
 }
 
-// 'Abc company', 'http://portforlio.zizoribeiro.com', 'Ruby on Rails', 150, 120, 15, 'zizo.ribeiro@gmail.com'
+// 21, 'Abc company', 'http://portforlio.zizoribeiro.com', 'Ruby on Rails', 150, 120, 15, 'zizo.ribeiro@gmail.com'
