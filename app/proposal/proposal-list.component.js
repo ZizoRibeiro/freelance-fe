@@ -22,7 +22,7 @@ var ProposalListComponent = (function () {
             moduleId: module.id,
             selector: 'proposal-list',
             templateUrl: 'proposal-list.component.html',
-            styleUrls: ['proposal-new.component.css']
+            styleUrls: ['proposal-list.component.css']
         }), 
         __metadata('design:paramtypes', [])
     ], ProposalListComponent);

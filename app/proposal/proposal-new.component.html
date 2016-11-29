@@ -155,7 +155,7 @@
 
       <p>To accomplish the project and meet the requirements that we discussed, I am estimating that 
       it will take {{ proposal.estimated_hours }} in development time to complete . The project should take {{ proposal.weeks_to_complete }} to
-      complete and with my hourly rate of {{ proposal.hourly_rate }}, the estimated total will be {{ proposal.estimated_hours * proposal.hourly_rate }}.</p>
+      complete and with my hourly rate of {{ proposal.hourly_rate }}, the estimated total will be {{ proposal.estimated_hours * proposal.hourly_rate | currency: 'CAD':true:'.0'}}.</p>
 
       <p>The next step from here is to set up a meeting to finalize the project and sign contracts.</p>
 
